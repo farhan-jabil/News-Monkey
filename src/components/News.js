@@ -59,9 +59,9 @@ const News = (props) => {
           <h5 className='mr-5'>Category <p>{props.category.charAt(0).toUpperCase() + props.category.slice(1)}</p> </h5>
           <h5 className='mx-5'>Country <p>{props.country.charAt(0).toUpperCase() + props.country.slice(1)}</p> </h5>
           <h5 className='mx-5'>Total Results <p>{totalResults}</p> </h5>
-          <h5 className='mx-5'>Page Number <p>{page}</p> </h5>
-          <h5 className='mx-5'>Total Items <p>{props.pageSize}</p> </h5>
-          <h5 className='mx-5'>Total Number of pages <p>{Math.ceil(totalResults / props.pageSize)}</p></h5>
+          {/* <h5 className='mx-5'>Page Number <p>{page}</p> </h5> */}
+          {/* <h5 className='mx-5'>Total Items <p>{props.pageSize}</p> </h5> */}
+          {/* <h5 className='mx-5'>Total Number of pages <p>{Math.ceil(totalResults / props.pageSize)}</p></h5> */}
         </div>
         {/* <div className="d-flex justify-content-between mt-3">
           <button disabled={page <= 1} type="button" onClick={prevButton} className="btn btn-primary">&#8249; Previous</button>

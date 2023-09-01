@@ -10,7 +10,7 @@ import {
 import LoadingBar from 'react-top-loading-bar';
 
 const App = () => {
-  const pageSize = 5;
+  const pageSize = 6;
   const country = "us";
   const apiKey = process.env.REACT_APP_NEWS_API;
 

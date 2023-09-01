@@ -14,7 +14,7 @@ const NewsItem = (props) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
           <p className='card-text'><small className='text-muted'>by {!author ? "Unknown" : author} at {new Date(publishedAt).toGMTString()}</small></p>
-          <a href={desURL} className="btn btn-sm btn-primary" target="_blank">Read More</a>
+          <a href={desURL} className="btn btn-sm btn-primary" rel="noreferrer" target="_blank">Read More</a>
         </div>
         <span className="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
           {source}
