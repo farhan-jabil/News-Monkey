@@ -56,7 +56,7 @@ const News = (props) => {
         <h1 className='text-center' style={{marginTop: "100px"}}>New Monkey- Top Headlines</h1>
         {loading && <Spinner />}
         <div className='d-flex my-3 text-center justify-content-center'>
-          <h5 className='mr-5'>Category <p>{props.category.charAt(0).toUpperCase() + props.category.slice(1)}</p> </h5>
+          <h5 className='mx-5'>Category <p>{props.category.charAt(0).toUpperCase() + props.category.slice(1)}</p> </h5>
           <h5 className='mx-5'>Country <p>{props.country.charAt(0).toUpperCase() + props.country.slice(1)}</p> </h5>
           <h5 className='mx-5'>Total Results <p>{totalResults}</p> </h5>
           {/* <h5 className='mx-5'>Page Number <p>{page}</p> </h5> */}
